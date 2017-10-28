@@ -1,0 +1,1369 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.9" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JInternalFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup1">
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="1"/>
+    <Property name="iconifiable" type="boolean" value="true"/>
+    <Property name="maximizable" type="boolean" value="true"/>
+    <Property name="resizable" type="boolean" value="true"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" pref="682" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_SerializeTo" type="java.lang.String" value="ConTodo_jPanel1"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout">
+        <Property name="axis" type="int" value="1"/>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel8">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                <TitledBorder justification="1" title="Datos de ETABS">
+                  <Font PropertyName="font" name="Tahoma" size="14" style="0"/>
+                </TitledBorder>
+              </Border>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout">
+            <Property name="axis" type="int" value="0"/>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="jPanel9">
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.DesignFlowLayout">
+                <Property name="alignment" type="int" value="0"/>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JComboBox" name="jComboBox2">
+                  <Properties>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="0"/>
+                    </Property>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jComboBox2KeyPressed"/>
+                  </Events>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                  </AuxValues>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanel15">
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.DesignFlowLayout">
+                <Property name="alignment" type="int" value="2"/>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JButton" name="aceptar_1">
+                  <Properties>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="3" name="/fotos/Accept-icon.png"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Aceptar"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="aceptar_1ActionPerformed"/>
+                    <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="aceptar_1KeyPressed"/>
+                  </Events>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanel21">
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.DesignFlowLayout">
+                <Property name="alignment" type="int" value="2"/>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JRadioButton" name="ordinaria">
+                  <Properties>
+                    <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                      <ComponentRef name="buttonGroup1"/>
+                    </Property>
+                    <Property name="selected" type="boolean" value="true"/>
+                    <Property name="text" type="java.lang.String" value="Con diagonales"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ordinariaActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="especial">
+                  <Properties>
+                    <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                      <ComponentRef name="buttonGroup1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Especial"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="especialActionPerformed"/>
+                  </Events>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="jPanel2">
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+              </AuxValues>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jPanel3" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jPanel3" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Container class="javax.swing.JPanel" name="jPanel3">
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout">
+                    <Property name="axis" type="int" value="1"/>
+                  </Layout>
+                  <SubComponents>
+                    <Container class="javax.swing.JPanel" name="jPanel6">
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout"/>
+                      <SubComponents>
+                        <Container class="javax.swing.JPanel" name="jPanel7">
+                          <Properties>
+                            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                                <TitledBorder justification="2" title="Materiales y geometr&#xed;a de la viga">
+                                  <Font PropertyName="font" name="Tahoma" size="14" style="0"/>
+                                  <Color PropertyName="color" blue="0" green="0" red="cc" type="rgb"/>
+                                </TitledBorder>
+                              </Border>
+                            </Property>
+                            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="ff" green="99" red="0" type="rgb"/>
+                            </Property>
+                          </Properties>
+
+                          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignGridLayout">
+                            <Property name="columns" type="int" value="4"/>
+                            <Property name="horizontalGap" type="int" value="2"/>
+                            <Property name="rows" type="int" value="6"/>
+                            <Property name="verticalGap" type="int" value="2"/>
+                          </Layout>
+                          <SubComponents>
+                            <Component class="javax.swing.JLabel" name="jLabel90">
+                              <Properties>
+                                <Property name="horizontalAlignment" type="int" value="0"/>
+                                <Property name="text" type="java.lang.String" value="&lt; f&apos;c [kgf/cm&#xb2;] ="/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JTextField" name="jt7">
+                              <Events>
+                                <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jt7FocusGained"/>
+                                <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jt7FocusLost"/>
+                                <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jt7KeyPressed"/>
+                              </Events>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jLabel108">
+                              <Properties>
+                                <Property name="horizontalAlignment" type="int" value="0"/>
+                                <Property name="text" type="java.lang.String" value="fyl [kgf/cm&#xb2;] ="/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JTextField" name="jt8">
+                              <Properties>
+                                <Property name="text" type="java.lang.String" value="4220.0"/>
+                              </Properties>
+                              <Events>
+                                <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jt8FocusGained"/>
+                                <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jt8FocusLost"/>
+                                <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jt8KeyPressed"/>
+                              </Events>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jLabel115">
+                              <Properties>
+                                <Property name="horizontalAlignment" type="int" value="0"/>
+                                <Property name="text" type="java.lang.String" value="fyt [kgf/cm&#xb2;] ="/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JTextField" name="jt9">
+                              <Properties>
+                                <Property name="text" type="java.lang.String" value="4220.0"/>
+                              </Properties>
+                              <Events>
+                                <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jt9FocusGained"/>
+                                <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jt9FocusLost"/>
+                                <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jt9KeyPressed"/>
+                              </Events>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jLabel119">
+                              <Properties>
+                                <Property name="horizontalAlignment" type="int" value="0"/>
+                                <Property name="text" type="java.lang.String" value="&#x3d5; cortante"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JTextField" name="jt13">
+                              <Properties>
+                                <Property name="editable" type="boolean" value="false"/>
+                                <Property name="text" type="java.lang.String" value="0.85"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jLabel134">
+                              <Properties>
+                                <Property name="horizontalAlignment" type="int" value="0"/>
+                                <Property name="text" type="java.lang.String" value="&#x3d5; flexi&#xf3;n"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JTextField" name="jt14">
+                              <Properties>
+                                <Property name="editable" type="boolean" value="false"/>
+                                <Property name="text" type="java.lang.String" value="0.9"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jLabel138">
+                              <Properties>
+                                <Property name="horizontalAlignment" type="int" value="0"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jLabel139">
+                              <Properties>
+                                <Property name="horizontalAlignment" type="int" value="0"/>
+                              </Properties>
+                            </Component>
+                          </SubComponents>
+                        </Container>
+                        <Container class="javax.swing.JPanel" name="jPanel20">
+                          <Properties>
+                            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                                <TitledBorder justification="2" title="Datos de inicio">
+                                  <Font PropertyName="font" name="Tahoma" size="14" style="0"/>
+                                  <Color PropertyName="color" blue="0" green="0" red="cc" type="rgb"/>
+                                </TitledBorder>
+                              </Border>
+                            </Property>
+                          </Properties>
+
+                          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignGridLayout">
+                            <Property name="columns" type="int" value="2"/>
+                            <Property name="horizontalGap" type="int" value="2"/>
+                            <Property name="rows" type="int" value="6"/>
+                            <Property name="verticalGap" type="int" value="2"/>
+                          </Layout>
+                          <SubComponents>
+                            <Component class="javax.swing.JLabel" name="jLabel79">
+                              <Properties>
+                                <Property name="horizontalAlignment" type="int" value="0"/>
+                                <Property name="text" type="java.lang.String" value="&lt; ln [cm] = "/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JTextField" name="jt1">
+                              <Events>
+                                <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jt1FocusGained"/>
+                                <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jt1FocusLost"/>
+                                <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jt1KeyPressed"/>
+                              </Events>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jLabel98">
+                              <Properties>
+                                <Property name="horizontalAlignment" type="int" value="0"/>
+                                <Property name="text" type="java.lang.String" value="&lt; h [cm] ="/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JTextField" name="jt2">
+                              <Events>
+                                <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jt2FocusGained"/>
+                                <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jt2FocusLost"/>
+                                <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jt2KeyPressed"/>
+                              </Events>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jLabel110">
+                              <Properties>
+                                <Property name="horizontalAlignment" type="int" value="0"/>
+                                <Property name="text" type="java.lang.String" value="&lt; bw [cm] ="/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JTextField" name="jt3">
+                              <Events>
+                                <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jt3FocusGained"/>
+                                <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jt3FocusLost"/>
+                                <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jt3KeyPressed"/>
+                              </Events>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jLabel130">
+                              <Properties>
+                                <Property name="horizontalAlignment" type="int" value="0"/>
+                                <Property name="text" type="java.lang.String" value="r [cm] ="/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JTextField" name="jt4">
+                              <Properties>
+                                <Property name="editable" type="boolean" value="false"/>
+                                <Property name="text" type="java.lang.String" value="5.0"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jLabel136">
+                              <Properties>
+                                <Property name="horizontalAlignment" type="int" value="0"/>
+                                <Property name="text" type="java.lang.String" value="ln / h ="/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JTextField" name="jt5">
+                              <Properties>
+                                <Property name="editable" type="boolean" value="false"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jLabel140">
+                              <Properties>
+                                <Property name="horizontalAlignment" type="int" value="0"/>
+                                <Property name="text" type="java.lang.String" value="&#x3b1; propuesto [&#xb0;] ="/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JTextField" name="jt6">
+                              <Properties>
+                                <Property name="editable" type="boolean" value="false"/>
+                              </Properties>
+                              <Events>
+                                <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jt6FocusLost"/>
+                                <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jt6KeyPressed"/>
+                              </Events>
+                            </Component>
+                          </SubComponents>
+                        </Container>
+                        <Container class="javax.swing.JPanel" name="jPanel17">
+                          <Properties>
+                            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                                <TitledBorder justification="2" title="Geometr&#xed;a de la diagonal">
+                                  <Font PropertyName="font" name="Tahoma" size="14" style="0"/>
+                                  <Color PropertyName="color" blue="0" green="0" red="cc" type="rgb"/>
+                                </TitledBorder>
+                              </Border>
+                            </Property>
+                          </Properties>
+                          <AuxValues>
+                            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                          </AuxValues>
+
+                          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignGridLayout">
+                            <Property name="columns" type="int" value="2"/>
+                            <Property name="horizontalGap" type="int" value="2"/>
+                            <Property name="rows" type="int" value="6"/>
+                            <Property name="verticalGap" type="int" value="2"/>
+                          </Layout>
+                          <SubComponents>
+                            <Component class="javax.swing.JLabel" name="jLabel5">
+                              <Properties>
+                                <Property name="text" type="java.lang.String" value="bd [cm] = "/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JTextField" name="jt15">
+                              <Events>
+                                <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jt15FocusGained"/>
+                                <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jt15FocusLost"/>
+                                <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jt15KeyPressed"/>
+                              </Events>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jLabel12">
+                              <Properties>
+                                <Property name="text" type="java.lang.String" value="hd [cm] = "/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JTextField" name="jt16">
+                              <Events>
+                                <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jt16FocusGained"/>
+                                <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jt16FocusLost"/>
+                                <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jt16KeyPressed"/>
+                              </Events>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jLabel22">
+                              <Properties>
+                                <Property name="text" type="java.lang.String" value="rd [cm] ="/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JTextField" name="jt17">
+                              <Properties>
+                                <Property name="editable" type="boolean" value="false"/>
+                                <Property name="text" type="java.lang.String" value="7.0"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jLabel24">
+                            </Component>
+                            <Component class="javax.swing.JTextField" name="jt18">
+                              <Properties>
+                                <Property name="editable" type="boolean" value="false"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jLabel25">
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jLabel26">
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jLabel27">
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jLabel28">
+                            </Component>
+                          </SubComponents>
+                        </Container>
+                      </SubComponents>
+                    </Container>
+                    <Container class="javax.swing.JPanel" name="jPanel5">
+                      <Properties>
+                        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                            <TitledBorder justification="2" title="Refuerzo diagonales">
+                              <Font PropertyName="font" name="Tahoma" size="14" style="0"/>
+                              <Color PropertyName="color" blue="0" green="0" red="99" type="rgb"/>
+                            </TitledBorder>
+                          </Border>
+                        </Property>
+                      </Properties>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                      </AuxValues>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout">
+                        <Property name="axis" type="int" value="0"/>
+                      </Layout>
+                      <SubComponents>
+                        <Container class="javax.swing.JPanel" name="jPanel12">
+                          <Properties>
+                            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                                <TitledBorder justification="2" title="Acero longitudinal en diagonales">
+                                  <Font PropertyName="font" name="Tahoma" size="14" style="0"/>
+                                </TitledBorder>
+                              </Border>
+                            </Property>
+                          </Properties>
+
+                          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignGridLayout">
+                            <Property name="columns" type="int" value="3"/>
+                            <Property name="horizontalGap" type="int" value="2"/>
+                            <Property name="rows" type="int" value="4"/>
+                            <Property name="verticalGap" type="int" value="2"/>
+                          </Layout>
+                          <SubComponents>
+                            <Component class="javax.swing.JLabel" name="jl1">
+                              <Properties>
+                                <Property name="text" type="java.lang.String" value="As Esquinas [cm&#xb2;] = 11.40"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JComboBox" name="combo1">
+                              <Properties>
+                                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                                  <StringArray count="15">
+                                    <StringItem index="0" value="1#6 = 2.85 cm&#xb2; "/>
+                                    <StringItem index="1" value="1#8 = 5.07 cm&#xb2;"/>
+                                    <StringItem index="2" value="2#6 = 5.70 cm&#xb2;"/>
+                                    <StringItem index="3" value="1#10 = 7.92 cm&#xb2;"/>
+                                    <StringItem index="4" value="2#8 = 10.13 cm&#xb2;"/>
+                                    <StringItem index="5" value="1#10 + 1#6 =  10.77 cm&#xb2;"/>
+                                    <StringItem index="6" value="1#12 = 11.40 cm&#xb2;"/>
+                                    <StringItem index="7" value="1#10 + 1#8 =  12.98 cm&#xb2;"/>
+                                    <StringItem index="8" value="3#8 = 15.20 cm&#xb2;"/>
+                                    <StringItem index="9" value="2#10 = 15.83 cm&#xb2;"/>
+                                    <StringItem index="10" value="1#10 + 2#8 = 18.05 cm&#xb2;"/>
+                                    <StringItem index="11" value="2#12 = 22.80 cm&#xb2;"/>
+                                    <StringItem index="12" value="3#10 = 23.75 cm&#xb2;"/>
+                                    <StringItem index="13" value="1#12 + 2#10 = 27.24 cm&#xb2;"/>
+                                    <StringItem index="14" value="3#12 = 34.20 cm&#xb2;"/>
+                                  </StringArray>
+                                </Property>
+                              </Properties>
+                              <Events>
+                                <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="combo1FocusLost"/>
+                                <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="combo1KeyPressed"/>
+                              </Events>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                              </AuxValues>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jLabel3">
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jl2">
+                              <Properties>
+                                <Property name="text" type="java.lang.String" value="As cara b [cm&#xb2;] = 0.0"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JComboBox" name="combo2">
+                              <Properties>
+                                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                                  <StringArray count="11">
+                                    <StringItem index="0" value="0 paq"/>
+                                    <StringItem index="1" value="1 paq"/>
+                                    <StringItem index="2" value="2 paq"/>
+                                    <StringItem index="3" value="3 paq"/>
+                                    <StringItem index="4" value="4 paq"/>
+                                    <StringItem index="5" value="5 paq"/>
+                                    <StringItem index="6" value="6 paq"/>
+                                    <StringItem index="7" value="7 paq"/>
+                                    <StringItem index="8" value="8 paq"/>
+                                    <StringItem index="9" value="9 paq"/>
+                                    <StringItem index="10" value="10 paq"/>
+                                  </StringArray>
+                                </Property>
+                              </Properties>
+                              <Events>
+                                <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="combo2FocusLost"/>
+                                <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="combo2KeyPressed"/>
+                              </Events>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
+                            </Component>
+                            <Component class="javax.swing.JComboBox" name="combo4">
+                              <Properties>
+                                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                                  <StringArray count="15">
+                                    <StringItem index="0" value="1#6 = 2.85 cm&#xb2; "/>
+                                    <StringItem index="1" value="1#8 = 5.07 cm&#xb2;"/>
+                                    <StringItem index="2" value="2#6 = 5.70 cm&#xb2;"/>
+                                    <StringItem index="3" value="1#10 = 7.92 cm&#xb2;"/>
+                                    <StringItem index="4" value="2#8 = 10.13 cm&#xb2;"/>
+                                    <StringItem index="5" value="1#10 + 1#6 =  10.77 cm&#xb2;"/>
+                                    <StringItem index="6" value="1#12 = 11.40 cm&#xb2;"/>
+                                    <StringItem index="7" value="1#10 + 1#8 =  12.98 cm&#xb2;"/>
+                                    <StringItem index="8" value="3#8 = 15.20 cm&#xb2;"/>
+                                    <StringItem index="9" value="2#10 = 15.83 cm&#xb2;"/>
+                                    <StringItem index="10" value="1#10 + 2#8 = 18.05 cm&#xb2;"/>
+                                    <StringItem index="11" value="2#12 = 22.80 cm&#xb2;"/>
+                                    <StringItem index="12" value="3#10 = 23.75 cm&#xb2;"/>
+                                    <StringItem index="13" value="1#12 + 2#10 = 27.24 cm&#xb2;"/>
+                                    <StringItem index="14" value="3#12 = 34.20 cm&#xb2;"/>
+                                  </StringArray>
+                                </Property>
+                              </Properties>
+                              <Events>
+                                <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="combo4FocusLost"/>
+                                <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="combo4KeyPressed"/>
+                              </Events>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jl3">
+                              <Properties>
+                                <Property name="text" type="java.lang.String" value="As cara d [cm&#xb2;] = 0.0"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JComboBox" name="combo3">
+                              <Properties>
+                                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                                  <StringArray count="11">
+                                    <StringItem index="0" value="0 paq"/>
+                                    <StringItem index="1" value="1 paq"/>
+                                    <StringItem index="2" value="2 paq"/>
+                                    <StringItem index="3" value="3 paq"/>
+                                    <StringItem index="4" value="4 paq"/>
+                                    <StringItem index="5" value="5 paq"/>
+                                    <StringItem index="6" value="6 paq"/>
+                                    <StringItem index="7" value="7 paq"/>
+                                    <StringItem index="8" value="8 paq"/>
+                                    <StringItem index="9" value="9 paq"/>
+                                    <StringItem index="10" value="10 paq"/>
+                                  </StringArray>
+                                </Property>
+                              </Properties>
+                              <Events>
+                                <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="combo3FocusLost"/>
+                                <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="combo3KeyPressed"/>
+                              </Events>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                              </AuxValues>
+                            </Component>
+                            <Component class="javax.swing.JComboBox" name="combo5">
+                              <Properties>
+                                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                                  <StringArray count="15">
+                                    <StringItem index="0" value="1#6 = 2.85 cm&#xb2; "/>
+                                    <StringItem index="1" value="1#8 = 5.07 cm&#xb2;"/>
+                                    <StringItem index="2" value="2#6 = 5.70 cm&#xb2;"/>
+                                    <StringItem index="3" value="1#10 = 7.92 cm&#xb2;"/>
+                                    <StringItem index="4" value="2#8 = 10.13 cm&#xb2;"/>
+                                    <StringItem index="5" value="1#10 + 1#6 =  10.77 cm&#xb2;"/>
+                                    <StringItem index="6" value="1#12 = 11.40 cm&#xb2;"/>
+                                    <StringItem index="7" value="1#10 + 1#8 =  12.98 cm&#xb2;"/>
+                                    <StringItem index="8" value="3#8 = 15.20 cm&#xb2;"/>
+                                    <StringItem index="9" value="2#10 = 15.83 cm&#xb2;"/>
+                                    <StringItem index="10" value="1#10 + 2#8 = 18.05 cm&#xb2;"/>
+                                    <StringItem index="11" value="2#12 = 22.80 cm&#xb2;"/>
+                                    <StringItem index="12" value="3#10 = 23.75 cm&#xb2;"/>
+                                    <StringItem index="13" value="1#12 + 2#10 = 27.24 cm&#xb2;"/>
+                                    <StringItem index="14" value="3#12 = 34.20 cm&#xb2;"/>
+                                  </StringArray>
+                                </Property>
+                                <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                                  <Dimension value="[100, 20]"/>
+                                </Property>
+                              </Properties>
+                              <Events>
+                                <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="combo5FocusLost"/>
+                                <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="combo5KeyPressed"/>
+                              </Events>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                              </AuxValues>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jl4">
+                              <Properties>
+                                <Property name="text" type="java.lang.String" value="As total long = 11.40"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JTextField" name="jt21">
+                              <Properties>
+                                <Property name="text" type="java.lang.String" value="l desarrollo propuesta [cm] = 60"/>
+                              </Properties>
+                              <Events>
+                                <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jt21FocusGained"/>
+                                <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jt21FocusLost"/>
+                                <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jt21KeyPressed"/>
+                              </Events>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jl5">
+                              <Properties>
+                                <Property name="text" type="java.lang.String" value="l desarrollo [cm] = 60"/>
+                              </Properties>
+                            </Component>
+                          </SubComponents>
+                        </Container>
+                        <Container class="javax.swing.JPanel" name="jPanel13">
+                          <Properties>
+                            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                                <TitledBorder justification="2" title="Acero transversal en diagonales">
+                                  <Font PropertyName="font" name="Tahoma" size="14" style="0"/>
+                                </TitledBorder>
+                              </Border>
+                            </Property>
+                          </Properties>
+
+                          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignGridLayout">
+                            <Property name="columns" type="int" value="3"/>
+                            <Property name="horizontalGap" type="int" value="2"/>
+                            <Property name="rows" type="int" value="4"/>
+                            <Property name="verticalGap" type="int" value="2"/>
+                          </Layout>
+                          <SubComponents>
+                            <Component class="javax.swing.JLabel" name="jl6">
+                              <Properties>
+                                <Property name="text" type="java.lang.String" value="estribos [cm&#xb2;] = 1.42"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JComboBox" name="combo6">
+                              <Properties>
+                                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                                  <StringArray count="3">
+                                    <StringItem index="0" value="1#3 = 1.42 cm&#xb2;"/>
+                                    <StringItem index="1" value="1#4 = 2.54 cm&#xb2;"/>
+                                    <StringItem index="2" value="2#3 = 2.84 cm&#xb2;"/>
+                                  </StringArray>
+                                </Property>
+                              </Properties>
+                              <Events>
+                                <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="combo6FocusLost"/>
+                                <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="combo6KeyPressed"/>
+                              </Events>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                              </AuxValues>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jLabel13">
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jl7">
+                              <Properties>
+                                <Property name="text" type="java.lang.String" value="grapas v2 [cm&#xb2;] = 1.42"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JComboBox" name="combo19">
+                              <Properties>
+                                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                                  <StringArray count="11">
+                                    <StringItem index="0" value="0 paq"/>
+                                    <StringItem index="1" value="1 paq"/>
+                                    <StringItem index="2" value="2 paq"/>
+                                    <StringItem index="3" value="3 paq"/>
+                                    <StringItem index="4" value="4 paq"/>
+                                    <StringItem index="5" value="5 paq"/>
+                                    <StringItem index="6" value="6 paq"/>
+                                    <StringItem index="7" value="7 paq"/>
+                                    <StringItem index="8" value="8 paq"/>
+                                    <StringItem index="9" value="9 paq"/>
+                                    <StringItem index="10" value="10 paq"/>
+                                  </StringArray>
+                                </Property>
+                              </Properties>
+                              <Events>
+                                <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="combo19FocusLost"/>
+                                <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="combo19KeyPressed"/>
+                              </Events>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                              </AuxValues>
+                            </Component>
+                            <Component class="javax.swing.JComboBox" name="combo7">
+                              <Properties>
+                                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                                  <StringArray count="3">
+                                    <StringItem index="0" value="gr3 = 0.71"/>
+                                    <StringItem index="1" value="gr4 = 1.27"/>
+                                    <StringItem index="2" value="gr5 = 1.98"/>
+                                  </StringArray>
+                                </Property>
+                              </Properties>
+                              <Events>
+                                <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="combo7FocusLost"/>
+                                <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="combo7KeyPressed"/>
+                              </Events>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                              </AuxValues>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jl8">
+                              <Properties>
+                                <Property name="text" type="java.lang.String" value="grapas v3 [cm&#xb2;] = 1.42"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JComboBox" name="combo20">
+                              <Properties>
+                                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                                  <StringArray count="11">
+                                    <StringItem index="0" value="0 paq"/>
+                                    <StringItem index="1" value="1 paq"/>
+                                    <StringItem index="2" value="2 paq"/>
+                                    <StringItem index="3" value="3 paq"/>
+                                    <StringItem index="4" value="4 paq"/>
+                                    <StringItem index="5" value="5 paq"/>
+                                    <StringItem index="6" value="6 paq"/>
+                                    <StringItem index="7" value="7 paq"/>
+                                    <StringItem index="8" value="8 paq"/>
+                                    <StringItem index="9" value="9 paq"/>
+                                    <StringItem index="10" value="10 paq"/>
+                                  </StringArray>
+                                </Property>
+                              </Properties>
+                              <Events>
+                                <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="combo20FocusLost"/>
+                                <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="combo20KeyPressed"/>
+                              </Events>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                              </AuxValues>
+                            </Component>
+                            <Component class="javax.swing.JComboBox" name="combo8">
+                              <Properties>
+                                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                                  <StringArray count="6">
+                                    <StringItem index="0" value="gr3 = 0.71"/>
+                                    <StringItem index="1" value="gr4 = 1.27"/>
+                                    <StringItem index="2" value="gr5 = 1.98"/>
+                                    <StringItem index="3" value="e3 = 1.42"/>
+                                    <StringItem index="4" value="e4 = 2.54"/>
+                                    <StringItem index="5" value="e5 = 3.96"/>
+                                  </StringArray>
+                                </Property>
+                              </Properties>
+                              <Events>
+                                <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="combo8FocusLost"/>
+                                <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="combo8KeyPressed"/>
+                              </Events>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                              </AuxValues>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jl9">
+                              <Properties>
+                                <Property name="text" type="java.lang.String" value="separaci&#xf3;n max [cm&#xb2;] = 11"/>
+                              </Properties>
+                              <Events>
+                                <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jl9FocusLost"/>
+                              </Events>
+                            </Component>
+                            <Component class="javax.swing.JComboBox" name="combo9">
+                              <Properties>
+                                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                                  <StringArray count="15">
+                                    <StringItem index="0" value="@ 5 cm"/>
+                                    <StringItem index="1" value="@ 6 cm"/>
+                                    <StringItem index="2" value="@ 7.5 cm"/>
+                                    <StringItem index="3" value="@ 9 cm"/>
+                                    <StringItem index="4" value="@ 10 cm"/>
+                                    <StringItem index="5" value="@ 12.5 cm"/>
+                                    <StringItem index="6" value="@ 15 cm"/>
+                                    <StringItem index="7" value="@ 17.5 cm"/>
+                                    <StringItem index="8" value="@ 20 cm"/>
+                                    <StringItem index="9" value="@ 22.5 cm"/>
+                                    <StringItem index="10" value="@ 25 cm"/>
+                                    <StringItem index="11" value="@ 27.5 cm"/>
+                                    <StringItem index="12" value="@ 30 cm"/>
+                                    <StringItem index="13" value="@ 32.5 cm"/>
+                                    <StringItem index="14" value="@ 35 cm"/>
+                                  </StringArray>
+                                </Property>
+                              </Properties>
+                              <Events>
+                                <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="combo9FocusLost"/>
+                                <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="combo9KeyPressed"/>
+                              </Events>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                              </AuxValues>
+                            </Component>
+                            <Component class="javax.swing.JComboBox" name="combo10">
+                              <Properties>
+                                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                                  <StringArray count="4">
+                                    <StringItem index="0" value="Hay confinamiento en bordes"/>
+                                    <StringItem index="1" value="No hay confinamiento en bordes"/>
+                                    <StringItem index="2" value="Hay confinamiento b. izquierdo"/>
+                                    <StringItem index="3" value="Hay confinamiento b. derecho"/>
+                                  </StringArray>
+                                </Property>
+                              </Properties>
+                              <Events>
+                                <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="combo10KeyPressed"/>
+                              </Events>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                              </AuxValues>
+                            </Component>
+                          </SubComponents>
+                        </Container>
+                      </SubComponents>
+                    </Container>
+                    <Container class="javax.swing.JPanel" name="jPanel10">
+                      <Properties>
+                        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                            <TitledBorder justification="2"/>
+                          </Border>
+                        </Property>
+                      </Properties>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                      </AuxValues>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout">
+                        <Property name="axis" type="int" value="0"/>
+                      </Layout>
+                      <SubComponents>
+                        <Container class="javax.swing.JPanel" name="jPanel11">
+                          <Properties>
+                            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                                <TitledBorder justification="2" title="Dise&#xf1;o por flexi&#xf3;n ACI318-1 21.5">
+                                  <Font PropertyName="font" name="Tahoma" size="14" style="0"/>
+                                  <Color PropertyName="color" blue="0" green="0" red="99" type="rgb"/>
+                                </TitledBorder>
+                              </Border>
+                            </Property>
+                          </Properties>
+
+                          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignGridLayout">
+                            <Property name="columns" type="int" value="3"/>
+                            <Property name="horizontalGap" type="int" value="2"/>
+                            <Property name="rows" type="int" value="5"/>
+                            <Property name="verticalGap" type="int" value="2"/>
+                          </Layout>
+                          <SubComponents>
+                            <Component class="javax.swing.JLabel" name="jl10">
+                              <Properties>
+                                <Property name="horizontalAlignment" type="int" value="0"/>
+                                <Property name="text" type="java.lang.String" value="As Esquinas [cm&#xb2;] = 5.7"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JComboBox" name="combo11">
+                              <Properties>
+                                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                                  <StringArray count="15">
+                                    <StringItem index="0" value="1#6 = 2.85 cm&#xb2; "/>
+                                    <StringItem index="1" value="1#8 = 5.07 cm&#xb2;"/>
+                                    <StringItem index="2" value="2#6 = 5.70 cm&#xb2;"/>
+                                    <StringItem index="3" value="1#10 = 7.92 cm&#xb2;"/>
+                                    <StringItem index="4" value="2#8 = 10.13 cm&#xb2;"/>
+                                    <StringItem index="5" value="1#10 + 1#6 =  10.77 cm&#xb2;"/>
+                                    <StringItem index="6" value="1#12 = 11.40 cm&#xb2;"/>
+                                    <StringItem index="7" value="1#10 + 1#8 =  12.98 cm&#xb2;"/>
+                                    <StringItem index="8" value="3#8 = 15.20 cm&#xb2;"/>
+                                    <StringItem index="9" value="2#10 = 15.83 cm&#xb2;"/>
+                                    <StringItem index="10" value="1#10 + 2#8 = 18.05 cm&#xb2;"/>
+                                    <StringItem index="11" value="2#12 = 22.80 cm&#xb2;"/>
+                                    <StringItem index="12" value="3#10 = 23.75 cm&#xb2;"/>
+                                    <StringItem index="13" value="1#12 + 2#10 = 27.24 cm&#xb2;"/>
+                                    <StringItem index="14" value="3#12 = 34.20 cm&#xb2;"/>
+                                  </StringArray>
+                                </Property>
+                              </Properties>
+                              <Events>
+                                <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="combo11FocusLost"/>
+                                <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="combo11KeyPressed"/>
+                              </Events>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                              </AuxValues>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jLabel188">
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jl11">
+                              <Properties>
+                                <Property name="horizontalAlignment" type="int" value="0"/>
+                                <Property name="text" type="java.lang.String" value="As cara b [cm&#xb2;] = 0.0"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JComboBox" name="combo12">
+                              <Properties>
+                                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                                  <StringArray count="6">
+                                    <StringItem index="0" value="0 paq"/>
+                                    <StringItem index="1" value="1 paq"/>
+                                    <StringItem index="2" value="2 paq"/>
+                                    <StringItem index="3" value="3 paq"/>
+                                    <StringItem index="4" value="4 paq"/>
+                                    <StringItem index="5" value="5 paq"/>
+                                  </StringArray>
+                                </Property>
+                              </Properties>
+                              <Events>
+                                <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="combo12FocusLost"/>
+                                <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="combo12KeyPressed"/>
+                              </Events>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                              </AuxValues>
+                            </Component>
+                            <Component class="javax.swing.JComboBox" name="combo14">
+                              <Properties>
+                                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                                  <StringArray count="15">
+                                    <StringItem index="0" value="1#6 = 2.85 cm&#xb2; "/>
+                                    <StringItem index="1" value="1#8 = 5.07 cm&#xb2;"/>
+                                    <StringItem index="2" value="2#6 = 5.70 cm&#xb2;"/>
+                                    <StringItem index="3" value="1#10 = 7.92 cm&#xb2;"/>
+                                    <StringItem index="4" value="2#8 = 10.13 cm&#xb2;"/>
+                                    <StringItem index="5" value="1#10 + 1#6 =  10.77 cm&#xb2;"/>
+                                    <StringItem index="6" value="1#12 = 11.40 cm&#xb2;"/>
+                                    <StringItem index="7" value="1#10 + 1#8 =  12.98 cm&#xb2;"/>
+                                    <StringItem index="8" value="3#8 = 15.20 cm&#xb2;"/>
+                                    <StringItem index="9" value="2#10 = 15.83 cm&#xb2;"/>
+                                    <StringItem index="10" value="1#10 + 2#8 = 18.05 cm&#xb2;"/>
+                                    <StringItem index="11" value="2#12 = 22.80 cm&#xb2;"/>
+                                    <StringItem index="12" value="3#10 = 23.75 cm&#xb2;"/>
+                                    <StringItem index="13" value="1#12 + 2#10 = 27.24 cm&#xb2;"/>
+                                    <StringItem index="14" value="3#12 = 34.20 cm&#xb2;"/>
+                                  </StringArray>
+                                </Property>
+                              </Properties>
+                              <Events>
+                                <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="combo14FocusLost"/>
+                                <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="combo14KeyPressed"/>
+                              </Events>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                              </AuxValues>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jl12">
+                              <Properties>
+                                <Property name="horizontalAlignment" type="int" value="0"/>
+                                <Property name="text" type="java.lang.String" value="Asp [cm&#xb2;] = "/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JTextField" name="jt26">
+                              <Properties>
+                                <Property name="editable" type="boolean" value="false"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JComboBox" name="combo15">
+                              <Properties>
+                                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                                  <StringArray count="2">
+                                    <StringItem index="0" value="1#3 = 1.42 cm&#xb2;"/>
+                                    <StringItem index="1" value="1#4 = 2.54 cm&#xb2;"/>
+                                  </StringArray>
+                                </Property>
+                              </Properties>
+                              <Events>
+                                <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="combo15FocusLost"/>
+                                <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="combo15KeyPressed"/>
+                              </Events>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                              </AuxValues>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jl13">
+                              <Properties>
+                                <Property name="horizontalAlignment" type="int" value="0"/>
+                                <Property name="text" type="java.lang.String" value="estribos"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JComboBox" name="combo13">
+                              <Properties>
+                                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                                  <StringArray count="7">
+                                    <StringItem index="0" value="1#3 = 1.42 cm&#xb2;"/>
+                                    <StringItem index="1" value="1#4 = 2.54 cm&#xb2;"/>
+                                    <StringItem index="2" value="2#3 = 2.84 cm&#xb2;"/>
+                                    <StringItem index="3" value="1#5 = 3.96 cm&#xb2;"/>
+                                    <StringItem index="4" value="2#4 = 5.08 cm&#xb2;"/>
+                                    <StringItem index="5" value="1#6 = 5.70 cm&#xb2;"/>
+                                    <StringItem index="6" value="2#5 = 7.92 cm&#xb2;"/>
+                                  </StringArray>
+                                </Property>
+                              </Properties>
+                              <Events>
+                                <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="combo13KeyPressed"/>
+                              </Events>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                              </AuxValues>
+                            </Component>
+                            <Component class="javax.swing.JComboBox" name="combo16">
+                              <Properties>
+                                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                                  <StringArray count="15">
+                                    <StringItem index="0" value="@ 5 cm"/>
+                                    <StringItem index="1" value="@ 6 cm"/>
+                                    <StringItem index="2" value="@ 7.5 cm"/>
+                                    <StringItem index="3" value="@ 9 cm"/>
+                                    <StringItem index="4" value="@ 10 cm"/>
+                                    <StringItem index="5" value="@ 12.5 cm"/>
+                                    <StringItem index="6" value="@ 15 cm"/>
+                                    <StringItem index="7" value="@ 17.5 cm"/>
+                                    <StringItem index="8" value="@ 20 cm"/>
+                                    <StringItem index="9" value="@ 22.5 cm"/>
+                                    <StringItem index="10" value="@ 25 cm"/>
+                                    <StringItem index="11" value="@ 27.5 cm"/>
+                                    <StringItem index="12" value="@ 30 cm"/>
+                                    <StringItem index="13" value="@ 32.5 cm"/>
+                                    <StringItem index="14" value="@ 35 cm"/>
+                                  </StringArray>
+                                </Property>
+                              </Properties>
+                              <Events>
+                                <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="combo16KeyPressed"/>
+                              </Events>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                              </AuxValues>
+                            </Component>
+                            <Component class="javax.swing.JTextField" name="jt25">
+                              <Properties>
+                                <Property name="editable" type="boolean" value="false"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JComboBox" name="combo17">
+                              <Properties>
+                                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                                  <StringArray count="4">
+                                    <StringItem index="0" value="Item 1"/>
+                                    <StringItem index="1" value="Item 2"/>
+                                    <StringItem index="2" value="Item 3"/>
+                                    <StringItem index="3" value="Item 4"/>
+                                  </StringArray>
+                                </Property>
+                              </Properties>
+                              <Events>
+                                <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="combo17KeyPressed"/>
+                              </Events>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                              </AuxValues>
+                            </Component>
+                          </SubComponents>
+                        </Container>
+                        <Container class="javax.swing.JPanel" name="jPanel14">
+                          <Properties>
+                            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                                <TitledBorder justification="2" title="Revisi&#xf3;n de resistencia">
+                                  <Font PropertyName="font" name="Tahoma" size="14" style="0"/>
+                                  <Color PropertyName="color" blue="0" green="0" red="99" type="rgb"/>
+                                </TitledBorder>
+                              </Border>
+                            </Property>
+                          </Properties>
+
+                          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignGridLayout">
+                            <Property name="columns" type="int" value="3"/>
+                            <Property name="horizontalGap" type="int" value="2"/>
+                            <Property name="rows" type="int" value="5"/>
+                            <Property name="verticalGap" type="int" value="2"/>
+                          </Layout>
+                          <SubComponents>
+                            <Component class="javax.swing.JLabel" name="jLabel35">
+                              <Properties>
+                                <Property name="horizontalAlignment" type="int" value="0"/>
+                                <Property name="text" type="java.lang.String" value="&lt; Mu [tf-m]"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JTextField" name="jt23">
+                              <Events>
+                                <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jt23FocusGained"/>
+                                <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jt23FocusLost"/>
+                                <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jt23KeyPressed"/>
+                              </Events>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jLabel47">
+                              <Properties>
+                                <Property name="horizontalAlignment" type="int" value="0"/>
+                                <Property name="text" type="java.lang.String" value="&#x3d5; Mr [tf-m]"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JTextField" name="jt24">
+                              <Properties>
+                                <Property name="editable" type="boolean" value="false"/>
+                              </Properties>
+                              <Events>
+                                <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jt24KeyPressed"/>
+                              </Events>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jLabel61">
+                              <Properties>
+                                <Property name="horizontalAlignment" type="int" value="0"/>
+                                <Property name="text" type="java.lang.String" value="&lt; Vu [tf] ="/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JTextField" name="jt10">
+                              <Events>
+                                <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jt10FocusGained"/>
+                                <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jt10FocusLost"/>
+                                <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jt10KeyPressed"/>
+                              </Events>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jLabel58">
+                              <Properties>
+                                <Property name="horizontalAlignment" type="int" value="0"/>
+                                <Property name="text" type="java.lang.String" value="1.1&#x221a;f&apos;c*Acw [tf] (18.10.7.2) ="/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JTextField" name="jt11">
+                              <Properties>
+                                <Property name="editable" type="boolean" value="false"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jLabel2">
+                              <Properties>
+                                <Property name="horizontalAlignment" type="int" value="0"/>
+                                <Property name="text" type="java.lang.String" value="&#x3d5;Vn M&#xe1;x [tf] ="/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JTextField" name="jt12">
+                              <Properties>
+                                <Property name="editable" type="boolean" value="false"/>
+                              </Properties>
+                            </Component>
+                          </SubComponents>
+                        </Container>
+                      </SubComponents>
+                    </Container>
+                    <Container class="javax.swing.JPanel" name="jPanel4">
+                      <Properties>
+                        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                            <TitledBorder/>
+                          </Border>
+                        </Property>
+                      </Properties>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignFlowLayout">
+                        <Property name="alignment" type="int" value="2"/>
+                      </Layout>
+                      <SubComponents>
+                        <Component class="javax.swing.JLabel" name="jLabel1">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Nombre de Viga VA:"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="apellido_viga">
+                          <Properties>
+                            <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                              <Dimension value="[60, 20]"/>
+                            </Property>
+                            <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                              <Dimension value="[250, 30]"/>
+                            </Property>
+                          </Properties>
+                          <Events>
+                            <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="apellido_vigaFocusGained"/>
+                            <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="apellido_vigaFocusLost"/>
+                            <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="apellido_vigaKeyPressed"/>
+                          </Events>
+                        </Component>
+                        <Component class="javax.swing.JButton" name="guardar_2">
+                          <Properties>
+                            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                              <Image iconType="3" name="/fotos/Database-Recovery-icon (1).png"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="Almacenar"/>
+                          </Properties>
+                          <Events>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="guardar_2ActionPerformed"/>
+                            <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="guardar_2KeyPressed"/>
+                          </Events>
+                        </Component>
+                        <Component class="javax.swing.JButton" name="cancelar_2">
+                          <Properties>
+                            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                              <Image iconType="3" name="/fotos/Cancel-icon.png"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="Cancelar"/>
+                          </Properties>
+                          <Events>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cancelar_2ActionPerformed"/>
+                            <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="cancelar_2KeyPressed"/>
+                          </Events>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel16">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                <TitledBorder justification="1" title="Datos guardados">
+                  <Font PropertyName="font" name="Tahoma" size="14" style="0"/>
+                </TitledBorder>
+              </Border>
+            </Property>
+          </Properties>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout">
+            <Property name="axis" type="int" value="0"/>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="jPanel18">
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.DesignFlowLayout">
+                <Property name="alignment" type="int" value="0"/>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JComboBox" name="jComboBox3">
+                  <Properties>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="0"/>
+                    </Property>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jComboBox3KeyPressed"/>
+                  </Events>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                  </AuxValues>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanel19">
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.DesignFlowLayout">
+                <Property name="alignment" type="int" value="2"/>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JButton" name="guardar_3">
+                  <Properties>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="3" name="/fotos/Database-Accept-icon (1).png"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Guardar"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="guardar_3ActionPerformed"/>
+                    <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="guardar_3KeyPressed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JButton" name="editar">
+                  <Properties>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="3" name="/fotos/Editing-Pencil-icon.png"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Editar"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="editarActionPerformed"/>
+                    <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="editarKeyPressed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JButton" name="eliminar">
+                  <Properties>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="3" name="/fotos/icons8-Delete_24.png"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Eliminar"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="eliminarActionPerformed"/>
+                    <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="eliminarKeyPressed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JButton" name="cancelar_3">
+                  <Properties>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="3" name="/fotos/Actions-file-close-icon.png"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Cerrar"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cancelar_3ActionPerformed"/>
+                    <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="cancelar_3KeyPressed"/>
+                  </Events>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
